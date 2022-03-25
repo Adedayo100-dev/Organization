@@ -89,7 +89,7 @@ header{
 }
 .navigation-bar{
     background: rgb(63.75 63.75 63.75); /* #003da6*/
-    padding: 7.5px var(--x-padding);
+    padding: 10px var(--x-padding);
     display: flex;
     justify-content: space-between;
 }
