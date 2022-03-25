@@ -282,6 +282,7 @@ header{
 }
 main{
     padding: 60px 0 0 0;
+    position: relative;
 }
 .g-padding{
     padding-left: var(--x-padding);
@@ -345,7 +346,8 @@ button.primary, .button.primary, a.button.primary {
 .subscribtion-container{
     background-image: linear-gradient(to right,#006B67,#0F3F82);
     padding: 62px var(--x-padding);
-    overflow-x: hidden;
+    /* overflow: hidden; */
+    position: relative;
 }
 .subscribtion-container h2{
     color: white;
@@ -354,6 +356,10 @@ button.primary, .button.primary, a.button.primary {
 }
 .subscribtion-container>div{
     margin-bottom: 20.6px;
+    transition: border-color .25s;
+}
+.subscribtion-container>div:hover{
+    border-color: white;
 }
 .subscribtion-animate{
     border: 1px solid rgb(101 116 115);
@@ -382,6 +388,13 @@ button.primary, .button.primary, a.button.primary {
     border-radius: 20px;
     display: inline-block;
     text-align: center;
+}
+.subscribtion-logo{
+    position: absolute;
+    top: 63%;
+    right: 0;
+    width: 180px;
+    z-index: 1000;
 }
 footer {
     padding-top: 82.6px;
@@ -538,6 +551,10 @@ footer ul a{
     }
     .subscribtion-input{
         width: 100%;
+    }
+    .subscribtion-logo{
+        top: 79%;
+        right: -79px;
     }
     footer{
         padding-top: calc(82.6px - 1.33em);
