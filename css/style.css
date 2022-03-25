@@ -359,7 +359,7 @@ button.primary, .button.primary, a.button.primary {
     border: 1px solid rgb(101 116 115);
     border-radius: 28.165px;
     width: fit-content;
-    padding: 7.5px;
+    padding: 6px;
 }
 .subscribtion-form{
     display: flex;
@@ -405,7 +405,7 @@ footer h4{
 footer ul a{
     display: block;
     color: #555;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: normal;
     margin-bottom: 0.5em;
@@ -441,6 +441,7 @@ footer ul a{
     color: #1d252c;
     margin-right: 8px;
     line-height: 24px;
+    font-size: 12px;
 }
 .secondaryLinkList_2Ptfc li:first-of-type a:before {
     content: "";
@@ -509,7 +510,9 @@ footer ul a{
     }
 }
 @media only screen and (max-width: 991.98px){
-    
+    :root{
+        --x-padding: 60px;
+    }
 }
 @media only screen and (max-width: 767.98px){
     
