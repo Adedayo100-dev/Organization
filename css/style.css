@@ -325,10 +325,15 @@ main{
     width: 6px;
 }
 h1{
-    font-size: 48px;
+    /* font-size: 48px;
     font-weight: 500;
     line-height: 60px;
+    margin-top: 1.335rem; */
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 3.25rem;
     margin-top: 1.335rem;
+    letter-spacing: 0;
 }
 .border-bottom{
     border-bottom: 1px solid #ebebeb;
@@ -394,7 +399,7 @@ button.primary, .button.primary, a.button.primary {
     top: 63%;
     right: 0;
     width: 180px;
-    z-index: 1000;
+    z-index: 9;
 }
 footer {
     padding-top: 82.6px;
@@ -554,7 +559,8 @@ footer ul a{
     }
     .subscribtion-logo{
         top: 79%;
-        right: -79px;
+        /* right: -79px; */
+        right: 0;
     }
     footer{
         padding-top: calc(82.6px - 1.33em);
