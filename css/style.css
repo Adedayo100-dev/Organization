@@ -94,6 +94,7 @@ header{
     background: rgb(63.75 63.75 63.75); /* #003da6*/
     padding: 10px var(--x-padding);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .logo-container{
@@ -108,14 +109,15 @@ header{
 }
 .nav-links_container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 100%;
 }
 .nav-link{
     display: inline;
-    position: relative;
+    /* position: relative; */
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: .25px;
     line-height: 1.85714;
     padding: 4.5px 18px;
@@ -410,6 +412,7 @@ button.primary, .button.primary, a.button.primary {
     border-radius: 20px;
     display: inline-block;
     text-align: center;
+    box-shadow: 0px 1.6px 3.6px rgb(0 0 0 / 13%), 0px 0px 2.9px rgb(0 0 0 / 11%);
 }
 .subscribtion-logo{
     position: absolute;
@@ -419,14 +422,15 @@ button.primary, .button.primary, a.button.primary {
     z-index: 9;
 }
 footer {
-    padding-top: 82.6px;
+    /* padding-top: 82.6px; */
     padding-bottom: 16px;
     background-color: #f5f5f5;
 }
 .footer-nav{
     display: flex;
     width: 100%;
-    margin-bottom: 40px;
+    padding-bottom: 50.5px;
+    padding-top: 82.6px;
 }
 .footer-nav ul{
     width: 25%;
@@ -446,12 +450,12 @@ footer ul a{
     margin-bottom: 0.5em;
 }
 .copyright{
-    margin: 18px 0;
+    margin: 32px 0 16px;
 }
 .secondaryLinkListContainer_2YLUZ {
     color: #55555a;
     font-size: 10px;
-    padding: 0 0 16px 0;
+    padding-bottom: 16px;
     margin: 0 auto;
     /* padding: 14px 0; */
     border: none;
@@ -553,7 +557,20 @@ footer ul a{
     
 }
 @media only screen and (max-width: 575.98px){
-    
+    .navigation-bar{
+        flex-direction: column;
+    }
+    .nav-links_container{
+        padding-top: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-link{
+        width: 100%;
+    }
+    .nav-link:first-of-type{
+        padding-left: 18px;
+    }
 }
 @media only screen and (max-width: 467.98px){
     :root{
