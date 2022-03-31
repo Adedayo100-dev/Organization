@@ -1,6 +1,7 @@
 :root{
     --orange-color: orangered;
     --x-padding: 180px;
+    --img-border-radius: 12px;
 }
 *{
     box-sizing: border-box;
@@ -334,6 +335,22 @@ h1{
     line-height: 3.25rem;
     margin-top: 1.335rem;
     letter-spacing: 0;
+}
+.image-frame{
+    position: relative;
+}
+.image-frame img{
+    border-radius: var(--img-border-radius);
+}
+.image-caption{
+    right: 0;
+    background-color: rgba(0,0,0,.7);
+    bottom: 0;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    font-size: .625rem;
+    border-bottom-right-radius: var(--img-border-radius);
 }
 .border-bottom{
     border-bottom: 1px solid #ebebeb;
