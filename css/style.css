@@ -445,6 +445,7 @@ footer h4{
     line-height: 1.17;
     font-weight: 500;
     margin-bottom: 19px;
+    letter-spacing: 0.5px;
 }
 footer ul a{
     display: block;
@@ -487,6 +488,7 @@ footer ul a{
     margin-right: 8px;
     line-height: 24px;
     font-size: 12px;
+    text-decoration: underline;
 }
 .secondaryLinkList_2Ptfc li:first-of-type a:before {
     content: "";
