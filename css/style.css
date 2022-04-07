@@ -620,23 +620,45 @@ footer ul a{
     }
 }
 @media only screen and (max-width: 767.98px){
-    
+    :root{
+        --x-padding: 30px
+    }
 }
-@media only screen and (max-width: 575.98px){
-    .navigation-bar{
-        flex-direction: column;
-    }
-    .logo-container{
-
-    }
-    .nav-button-container{
-        display: block;
+@media only screen and (max-width: 600.98px){
+    :root{
+        --x-padding: 20px;
     }
     .nav-links_container{
         padding-top: 16px;
         flex-direction: column;
         align-items: flex-start;
     }
+    .navigation-bar{
+        flex-direction: column;
+    }
+    .nav-button-container{
+        display: block;
+    }
+    .nav-link{
+        width: 100%;
+    }
+    .nav-link a{
+        padding: 8px 0;
+    }
+    .nav-dropdown a::after{
+        right: 0;
+    }
+    .nav-dropdown-content{
+        position: static;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
+    }
+    .navigation-bar form{
+        width: 100%;
+        margin: 10px 0 0;
+    }
+}
+@media only screen and (max-width: 575.98px){
     .nav-link{
         width: 100%;
     }
@@ -665,9 +687,6 @@ footer ul a{
 @media only screen and (max-width: 467.98px){
     :root{
         --x-padding: 16px;
-    }
-    .searchbar{
-        /* max-width: 120px; */
     }
     main{
         padding: 0;
