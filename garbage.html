@@ -7,6 +7,48 @@
     <title>Garbage</title>
 </head>
 <body>
+    <button type="submit" class="search__submit o__ltr"></button>
+    <style>
+        html *:before, html *:after{
+            box-sizing: inherit;
+        }
+        .search__submit {
+            width: 22px;
+            height: 22px;
+            border: none;
+            background: transparent;
+            position: absolute;
+            top: 50%;
+            left: 19px;
+            margin-top: -10px;
+            outline: none;
+            cursor: pointer;
+            transform: scale(0.85);
+            transition: transform .1s linear;
+        }
+        .search__submit:before {
+            content: ' ';
+            border: 2px solid white;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 16px;
+            height: 16px;
+        }
+        .search__submit:after {
+            content: ' ';
+            border-top: 2px solid white;
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            width: 12px;
+            height: 1px;
+            transition: width .1s linear;
+            transform-origin: 100% 50%;
+            transform: rotate(-135deg);
+        }
+    </style>
     <div class="searchbar-dropdown">
         <span href="#">Type</span>
         <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="">
