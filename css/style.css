@@ -70,6 +70,12 @@ header{
     font-size: 14px;
     color: rgb(63.75 63.75 63.75);
 }
+.header-banner a{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: inherit;
+}
 .corona__close-button{
     background-color: rgba(62.73 62.73 62.73 /0.15);
     width: 24px;
@@ -232,6 +238,8 @@ header{
     padding: 0 10px;
     border-width: 0px;
     border-radius: 3px 0 0 3px;
+    background-color: rgb(255 255 255 / 20%);
+    color: white;
 }
 .searchbar-dropdown:focus-visible{
     outline: 0;
@@ -240,14 +248,14 @@ header{
     padding: 6px 10px;
     font-size: 14px;
     border: 1px solid transparent;
-    background-color: white;
+    background-color: rgb(255 255 255 / 20%);
     width: 360px;
     height: var(--searchbar-h);
     border-radius: 0;
 }
-/* .searchbar::placeholder{
-    color: white;
-} */
+.searchbar::placeholder{
+    color: rgba(255, 255, 255, .7);
+}
 .searchbar:focus{
     background-color: white; 
 }
@@ -259,12 +267,16 @@ header{
     height: var(--searchbar-h);
     border-width: 0px;
     border-radius: 0 3px 3px 0;
+    background-color: rgb(255 255 255 / 20%);
 }
 .searchbar-submit>div{
     width: 16px;
     display: inline-block;
     vertical-align: middle;
     height: 16px;
+}
+.searchbar-submit>div>svg{
+    fill: #FFF;
 }
 .d-flex{
     display: flex;
@@ -276,7 +288,7 @@ header{
     opacity: 0.4;
     display: inline;
     border-right: 1px solid rgb(207, 216, 220);
-    height: 75%;
+    height: 100%;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     align-self: center;
