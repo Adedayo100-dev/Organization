@@ -67,7 +67,8 @@ header{
     text-align: center;
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
     color: rgb(63.75 63.75 63.75);
 }
 .header-banner a{
@@ -216,6 +217,8 @@ header{
 .navigation-bar form{
     align-items: center;
     height: 40px;
+    background-color: rgb(255 255 255 / 20%);
+    border-radius: 3px;
 }
 .navigation-bar form:focus-within{
     box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 80%);
@@ -238,7 +241,7 @@ header{
     padding: 0 10px;
     border-width: 0px;
     border-radius: 3px 0 0 3px;
-    background-color: rgb(255 255 255 / 20%);
+    background-color: transparent;
     color: white;
 }
 .searchbar-dropdown:focus-visible{
@@ -248,7 +251,7 @@ header{
     padding: 6px 10px;
     font-size: 14px;
     border: 1px solid transparent;
-    background-color: rgb(255 255 255 / 20%);
+    background-color: transparent;
     width: 360px;
     height: var(--searchbar-h);
     border-radius: 0;
@@ -257,17 +260,17 @@ header{
     color: rgba(255, 255, 255, .7);
 }
 .searchbar:focus{
-    background-color: white; 
+    background-color: rgb(255 255 255 / 20%); 
 }
 .searchbar:focus-visible{
     outline: 0;
 }
 .searchbar-submit{
-    padding: 0 10px;
+    padding: 0 12px;
     height: var(--searchbar-h);
     border-width: 0px;
     border-radius: 0 3px 3px 0;
-    background-color: rgb(255 255 255 / 20%);
+    background-color: transparent;
 }
 .searchbar-submit>div{
     width: 16px;
