@@ -497,7 +497,7 @@ footer {
 .footer-nav{
     display: flex;
     width: 100%;
-    padding-bottom: 50.5px;
+    padding-bottom: 82.5px;
     padding-top: 82.6px;
 }
 .footer-nav ul{
@@ -724,6 +724,9 @@ footer ul a{
     }
     .subscribtion-animate{
         width: 100%;
+    }
+    .subscribtion-animate.subscribed{
+        width: fit-content;
     }
     .subscribtion-input{
         width: 100%;
