@@ -93,6 +93,9 @@ header{
 /* .corona__close-button:hover{
     background-color: rgba(255, 255, 255, 0.15);
 } */
+.corona__close-button svg{
+    transition: color 1s ;
+}
 .corona__close-button:hover svg {
     fill: rgb(62.73 62.73 62.73);
 }
@@ -654,7 +657,8 @@ footer ul a{
 }
 @media only screen and (max-width: 767.98px){
     :root{
-        --x-padding: 30px
+        --x-padding: 30px;
+        --modal-x-padding: 30px;
     }
 }
 @media only screen and (max-width: 600.98px){
