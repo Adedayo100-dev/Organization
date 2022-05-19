@@ -25,3 +25,21 @@ for (let i = 0; i < navDropdownList.length; i++) {
 // function toggleSearchBox() {
 
 // }
+
+// Open Modal
+var modal = document.getElementById("modal");
+
+function openModal(){
+    modal.classList.add("modal-open");
+    if (modal.classList.contains("modal-closed")) {
+        modal.classList.replace("modal-closed", "modal-open")
+    }
+}
+// Close Modal
+
+function closeModal() {  
+    modal.classList.add("modal-closed");
+    if (modal.classList.contains("modal-open")) {
+        modal.classList.replace("modal-open", "modal-closed")
+    }
+}

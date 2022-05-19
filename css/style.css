@@ -569,7 +569,7 @@ footer ul a{
     padding-right: 8px;
 }
 .hire-authorbox{
-    display: flex;/*flex*/
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(0,0,0,.8);
@@ -580,10 +580,28 @@ footer ul a{
     height: 100vh;
     z-index: 11;
 }
+.hire-authorbox.modal-open{
+    display: flex;
+}
+.hire-authorbox.modal-closed{
+    display: none;
+}
+.close-flag{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    background-color: grey;
+    padding: 60px 15px 30px;
+}
+.close-flag svg{
+    fill: white;
+    height: 14px;
+}
 .hire-authorbox>div{
+    position: relative;
     background-color: rgba(191 191 191/0.8);
     /* color: white; */
-    border-radius: 4px;
+    border-radius: 3px;
     width: 600px;
     height: fit-content;
 }
@@ -617,8 +635,8 @@ footer ul a{
 }
 .forgot-password{
     font-size: 14px;
-    display: block;
-    margin-top: 9px;
+    /* display: block; */
+    margin-top: 10px;
 }
 .padding-md{
     padding: 15px var(--modal-x-padding);
