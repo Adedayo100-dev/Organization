@@ -359,8 +359,8 @@ main{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.breadcrumbs-link {
-    color: #90a4ae;
+.breadcrumbs-link{
+    color: #ccc;
     display: inline;
     font-size: 12px;
     line-height: 20px;
@@ -633,11 +633,19 @@ footer ul a{
     border-radius: 2px;
     color: black;
 }
-.forgot-password{
+.modal-span-box{
+    display: block;
     font-size: 14px;
-    /* display: block; */
-    margin-top: 10px;
+    margin-top: 30px;
+    line-height: 1.55;
 }
+.forgot-password{
+    display: block;
+}
+/* .modal-span-box span{
+    display: block;
+    margin-top: 10px;
+} */
 .padding-md{
     padding: 15px var(--modal-x-padding);
 }
@@ -734,7 +742,7 @@ footer ul a{
     }
     .navigation-bar form{
         width: 100%;
-        margin: 10px 0 0;
+        margin: 18px 0 0;
     }
     .tools-container{
         padding: 18px 0 8px;
