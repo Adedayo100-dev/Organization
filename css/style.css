@@ -315,7 +315,7 @@ header{
 .account-icon:hover{
     fill: white;
 }
-.authentication-modal{
+/* .authentication-modal{
     display: flex;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.15),0 2px 3px rgba(0,0,0,0.2);
     border-radius: 2px;
@@ -338,7 +338,7 @@ header{
 }
 .authentication-modal.mini{
     z-index: 1;
-}
+} */
 main{
     padding: 60px 0 0 0;
     position: relative;
@@ -655,7 +655,7 @@ footer ul a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(253, 252, 252, 0.075);
+    background-color: rgba(62.73 62.73 62.73 /0.15);
     border-radius: inherit;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -664,6 +664,10 @@ footer ul a{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: var(--transition-duration);
+}
+.hire-button:hover{
+    background-color: grey;
+    color: white;
 }
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1035px){
@@ -749,7 +753,7 @@ footer ul a{
         padding: 18px 0 8px;
     }
     .hire-authorbox>div{
-        width: calc(100vw - 32px);
+        width: calc(100vw - (2*var(--x-padding)));
     }
 }
 @media only screen and (max-width: 467.98px){
