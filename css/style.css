@@ -256,7 +256,7 @@ header{
 }
 .searchbar {
     padding: 6px 10px;
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid transparent;
     background-color: transparent;
     width: 360px;
@@ -638,7 +638,7 @@ footer ul a{
     line-height: 1.55;
 }
 .forgot-password{
-    display: block;
+    /* display: block; */
 }
 /* .modal-span-box span{
     display: block;
