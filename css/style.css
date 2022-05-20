@@ -44,71 +44,6 @@ header{
     top: 0;
     z-index: 10;
 }
-.coronavirus-danger{  
-    /* background-image: repeating-linear-gradient(135deg,orangered,orangered 7px,yellow 7px,yellow 14px,orangered 14px,orangered 21px,yellow 21px,yellow 28px); */
-    background-color: #eee;
-    width: 100%;
-    /* height: calc(100% - 10px); */
-    display: flex;
-    justify-content: center;
-    transition: transform 1s ease;
-}
-.header-banner{
-    padding: 10px calc(var(--x-padding) - 5px);
-    border-radius: 3px;
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    margin: 5px;
-}
-.header-banner p{
-    margin: 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: rgb(63.75 63.75 63.75);
-    letter-spacing: 1.2px;
-}
-.header-banner a{
-    text-decoration: underline;
-    font-weight: bold;
-    margin-left: 0.5rem;
-    color: inherit;
-}
-.corona__close-button{
-    background-color: rgba(62.73 62.73 62.73 /0.15);
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    cursor: pointer;
-}
-/* .corona__close-button:hover{
-    background-color: rgba(255, 255, 255, 0.15);
-} */
-.corona__close-button svg{
-    transition: color 1s ;
-}
-.corona__close-button:hover svg {
-    fill: rgb(62.73 62.73 62.73);
-}
-.header-banner svg{
-    fill: white;
-    height: 14px;
-}
-.text-white{
-    color: white;
-}
-.text-underline{
-    text-decoration: underline;
-}
 .navigation-bar{
     background: rgb(63.75 63.75 63.75); /* #003da6*/
     padding: 10px var(--x-padding);
@@ -339,6 +274,76 @@ header{
 .authentication-modal.mini{
     z-index: 1;
 } */
+.coronavirus-danger{  
+    /* background-image: repeating-linear-gradient(135deg,orangered,orangered 7px,yellow 7px,yellow 14px,orangered 14px,orangered 21px,yellow 21px,yellow 28px); */
+    background-color: #eee;
+    width: 100%;
+    /* height: calc(100% - 10px); */
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease;
+    position: absolute;
+    z-index: -10;
+}
+.header-banner{
+    padding: 10px calc(var(--x-padding) - 5px);
+    border-radius: 3px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 5px;
+}
+.header-banner p{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(63.75 63.75 63.75);
+    letter-spacing: 1.2px;
+}
+.header-banner a{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    color: inherit;
+}
+.corona__close-button{
+    background-color: rgba(62.73 62.73 62.73 /0.15);
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* .corona__close-button:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+} */
+.corona__close-button svg{
+    transition: color 1s ;
+}
+.corona__close-button:hover svg {
+    fill: rgb(62.73 62.73 62.73);
+}
+.header-banner svg{
+    fill: white;
+    height: 14px;
+}
+.text-white{
+    color: white;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.alert__slide-up{
+    transform: translateY(-80px);
+}
 main{
     padding: 60px 0 0 0;
     position: relative;

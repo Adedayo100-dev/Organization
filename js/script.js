@@ -1,7 +1,7 @@
 var alertBox = document.getElementById("coronaAlert");
 
 function closeAlert() {
-    alertBox.classList.add("alert__slide-out");
+    alertBox.classList.add("alert__slide-up");
 }
 
 var navDropdownList = document.getElementsByClassName("nav-dropdown");
