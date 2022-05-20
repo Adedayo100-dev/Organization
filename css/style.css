@@ -54,7 +54,7 @@ header{
     transition: transform 1s ease;
 }
 .header-banner{
-    padding: 12px calc(var(--x-padding) - 5px);
+    padding: 10px calc(var(--x-padding) - 5px);
     border-radius: 3px;
     background-color: transparent;
     display: flex;
@@ -235,7 +235,7 @@ header{
     align-items: center;
 }
 .search-icon{
-    fill: rgb(255 255 255 / 15%);
+    fill: #eee;/*rgb(255 255 255 / 15%)*/
     height: 18px;
     width: 18px;
 }
@@ -310,7 +310,7 @@ header{
     height: 100%;
 }
 .account-icon{
-    fill: rgb(255 255 255 / 15%);
+    fill: #eee;/*rgb(255 255 255 / 15%)*/
 }
 .account-icon:hover{
     fill: white;
@@ -359,7 +359,7 @@ main{
     white-space: nowrap;
 }
 .breadcrumbs-link{
-    color: #ccc;
+    color: #a0a0a0;
     display: inline;
     font-size: 12px;
     line-height: 20px;
@@ -630,6 +630,7 @@ footer ul a{
     border: none;
     border-radius: 2px;
     color: black;
+    font-size: 12px;
 }
 .modal-span-box{
     display: block;
