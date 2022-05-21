@@ -601,7 +601,7 @@ footer ul a{
     fill: white;
     height: 14px;
 }
-.hire-authorbox>div{
+.modal{
     position: relative;
     background-color: #eee;/* rgba(191 191 191/0.8)*/
     /* color: white; */
@@ -662,11 +662,13 @@ footer ul a{
     align-items: center;
     justify-content: space-between;
     background-color: rgba(62.73 62.73 62.73 /0.15);
+    border: none;
     border-radius: inherit;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     color: var(--color-contrast-higher);
     text-decoration: none;
+    width: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     transition: var(--transition-duration);

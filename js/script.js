@@ -27,7 +27,7 @@ for (let i = 0; i < navDropdownList.length; i++) {
 // }
 
 // Open Modal
-var modal = document.getElementById("modal");
+var modal = document.getElementById("modalWindow");
 
 function openModal(){
     modal.classList.add("modal-open");
