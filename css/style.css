@@ -602,12 +602,14 @@ footer ul a{
     height: 14px;
 }
 .modal{
-    position: relative;
     background-color: #eee;/* rgba(191 191 191/0.8)*/
     /* color: white; */
     border-radius: 3px;
     width: 600px;
     height: fit-content;
+}
+.modal form{
+    position: relative;
 }
 .hire-authorbox h1{
     font-size: 31.2px;
@@ -639,7 +641,7 @@ footer ul a{
 }
 .modal-span-box{
     display: block;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 30px;
     line-height: 1.55;
 }
