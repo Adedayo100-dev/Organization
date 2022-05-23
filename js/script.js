@@ -21,10 +21,11 @@ for (let i = 0; i < navDropdownList.length; i++) {
     }
 }
 
-// var searchBoxContainer = getElementById("searchBoxContainer")
-// function toggleSearchBox() {
-
-// }
+var searchToggleClass = document.getElementById("navBar");
+function toggleSearchBar(){
+    console.log("red");
+    searchToggleClass.classList.toggle("switch-toggle");
+}
 
 // Open Modal
 var modal = document.getElementById("modalWindow");
