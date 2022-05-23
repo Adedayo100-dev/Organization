@@ -316,7 +316,7 @@ header{
 .header-banner p{
     margin: 0;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     font-size: 12px;
     text-transform: uppercase;
@@ -764,7 +764,8 @@ footer ul a{
         padding: 18px 0 8px;
     }
     .header-banner p{
-        flex-direction: column;
+        /* flex-direction: column; */
+        padding: 0 10px;
     }
 }
 @media only screen and (max-width: 575.98px){
