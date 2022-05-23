@@ -760,6 +760,12 @@ footer ul a{
         width: 100%;
         margin: 10px 0 0;
     }
+    .tools-container{
+        padding: 18px 0 8px;
+    }
+    .header-banner p{
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 575.98px){
     .nav-link{
@@ -780,9 +786,6 @@ footer ul a{
         width: 100%;
         margin: 18px 0 0;
     }
-    .tools-container{
-        padding: 18px 0 8px;
-    }
     .hire-authorbox>div{
         width: calc(100vw - (2*var(--x-padding)));
     }
@@ -792,7 +795,7 @@ footer ul a{
         --x-padding: 16px;
     }
     main{
-        padding: 0;
+        /* padding: 0; */
     }
     .subscribtion-container h2{
         text-align: center;
