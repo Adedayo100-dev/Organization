@@ -173,6 +173,7 @@ header{
     fill: #eee;/*rgb(255 255 255 / 15%)*/
     height: 18px;
     width: 18px;
+    margin-left: 10px;
 }
 .search-icon:hover{
     fill: white;
@@ -227,6 +228,21 @@ header{
 .d-none{
     display: none;
 }
+.tools-container{
+    color: wheat;
+    font-size: 14px;
+}
+.switch-text_container{
+    height: 14px;
+    overflow-y: hidden;
+}
+.switch-text_container li{
+    line-height: 1;
+    transition: transform .75s ease;
+}
+.switch-toggle li{
+    transform:translate3d(0,-100%,0);
+}
 .vertical-divider{
     opacity: 0.4;
     display: inline;
@@ -246,6 +262,7 @@ header{
 }
 .account-icon{
     fill: #eee;/*rgb(255 255 255 / 15%)*/
+    margin-left: 10px;
 }
 .account-icon:hover{
     fill: white;
@@ -607,6 +624,7 @@ footer ul a{
     border-radius: 3px;
     width: 600px;
     height: fit-content;
+    box-shadow: 0 0 16px rgb(0 0 0 / 12%), 0 16px 16px rgb(0 0 0 / 24%);
 }
 .modal form{
     position: relative;
@@ -614,12 +632,12 @@ footer ul a{
 .hire-authorbox h1{
     font-size: 31.2px;
     line-height: 37.5px;
-    margin: 0 0 7.656px 0;
+    margin: 0;
 }
 .hire-authorbox .yx-gm{
     color: rgba(0,0, 0, .6);
     margin: 0;
-    padding-bottom: 10px;
+    font-size: 14px;
 }
 .modal-content{
     padding: 60px var(--modal-x-padding);
@@ -641,9 +659,12 @@ footer ul a{
 }
 .modal-span-box{
     display: block;
-    font-size: 12px;
+    font-size: 12px !important;
     margin-top: 30px;
     line-height: 1.55;
+}
+.modal-span-box>* {
+    display: block;
 }
 .forgot-password{
     /* display: block; */
