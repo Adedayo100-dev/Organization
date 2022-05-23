@@ -286,7 +286,7 @@ header{
     z-index: -10;
 }
 .header-banner{
-    padding: 10px calc(var(--x-padding) - 5px);
+    padding: 7px calc(var(--x-padding) - 5px);
     border-radius: 3px;
     background-color: transparent;
     display: flex;
@@ -353,7 +353,7 @@ main{
     padding-right: var(--x-padding);
 }
 .article_container{
-    padding-top: 34.84px;
+    padding-top: 60px;
     padding-bottom: 52.26px;
 }
 .breadcrumbs {
@@ -602,7 +602,7 @@ footer ul a{
     height: 14px;
 }
 .modal{
-    background-color: #eee;/* rgba(191 191 191/0.8)*/
+    background-color: white;/* rgba(191 191 191/0.8)*/
     /* color: white; */
     border-radius: 3px;
     width: 600px;
@@ -633,7 +633,7 @@ footer ul a{
 .hire-authorbox input{
     width: 100%;
     padding: 12px;
-    background-color: rgb(255 255 255 / 100%);
+    background-color: #eee;
     border: none;
     border-radius: 2px;
     color: black;
