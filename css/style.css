@@ -359,7 +359,7 @@ header{
     text-decoration: underline;
 }
 .alert__slide-up{
-    transform: translateY(-80px);
+    transform: translateY(-90px);
 }
 main{
     padding: 60px 0 0 0;
