@@ -94,8 +94,8 @@ header{
 }
 .nav-link{
     display: inline;
-    color: white;
-    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
     letter-spacing: .25px;
     line-height: 1.85714;
     position: relative;
@@ -114,7 +114,7 @@ header{
 .nav-dropdown a::after{
     content: "";
     position: absolute;
-    top: calc(100% - 22px);
+    top: calc(50% - 4.5px);
     right: -4px;
     width: 11px;
     height: 9px;
@@ -132,10 +132,10 @@ header{
     display: none;
     position: absolute;
     left: 0;
-    top: 47px;
+    top: 49.1px;
     background: var(--orange-color);
     box-shadow: 0 0.1rem 0.4rem 0 rgb(50 50 50 / 50%);
-    border-bottom: 1px solid var(--orange-color);
+    /* border-bottom: 1px solid var(--orange-color); */
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     z-index: 1;
