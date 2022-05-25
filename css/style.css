@@ -42,14 +42,17 @@ header{
     /* box-shadow: 0 1px 1.25px 0 rgb(32 33 36 / 28%); */
     /* position: sticky; */
     /* top: 0; */
-    z-index: 10;
+    /* z-index: 10; */
+    display: flex;
+    flex-direction: column;
 }
 .navigation-bar{
     background: white; /* #003da6, rgb(63.75 63.75 63.75)*/
-    padding: 10px var(--x-padding);
+    padding: 12px var(--x-padding);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 10;
 }
 .logo-container{
     display: flex;
@@ -169,13 +172,13 @@ header{
     align-items: center;
 }
 .search-icon{
-    fill: #eee;/*rgb(255 255 255 / 15%)*/
+    /* fill: #eee;rgb(255 255 255 / 15%)*/
     height: 18px;
     width: 18px;
     margin-left: 10px;
 }
-.search-icon:hover{
-    fill: white;
+.search-icon-container:hover .search-icon{
+    fill: rgba(0, 0, 0, 0.2);
 }
 .searchbar-dropdown{
     height: var(--searchbar-h);
@@ -184,7 +187,7 @@ header{
     border-width: 0px;
     border-radius: 3px 0 0 3px;
     background-color: transparent;
-    color: white;
+    color: rgb(0 0 0 / 70%);
 }
 .searchbar-dropdown:focus{
     color: black;
@@ -203,7 +206,7 @@ header{
     color: black;
 }
 .searchbar::placeholder{
-    color: rgba(255, 255, 255, .7);
+    color: rgb(0 0 0 / 70%);
 }
 .searchbar:focus-visible{
     outline: 0;
@@ -222,7 +225,7 @@ header{
     height: 16px;
 }
 .searchbar-submit>div>svg{
-    fill: #FFF;
+    fill: rgb(0 0 0 / 70%);
 }
 .d-flex{
     display: flex;
@@ -231,7 +234,6 @@ header{
     display: none;
 }
 .tools-container{
-    color: wheat;
     font-size: 14px;
     font-style: italic;
 }
@@ -270,11 +272,11 @@ header{
     height: 100%;
 }
 .account-icon{
-    fill: #eee;/*rgb(255 255 255 / 15%)*/
+    /* fill: ;rgb(255 255 255 / 15%), #eee*/
     margin-left: 10px;
 }
-.account-icon:hover{
-    fill: white;
+.account-icon-container:hover .account-icon{
+    fill: rgba(0, 0, 0, 0.2);
 }
 .coronavirus-danger{  
     /* background-image: repeating-linear-gradient(135deg,orangered,orangered 7px,yellow 7px,yellow 14px,orangered 14px,orangered 21px,yellow 21px,yellow 28px); */
@@ -284,8 +286,8 @@ header{
     display: flex;
     justify-content: center;
     transition: transform 1s ease;
-    position: absolute;
-    z-index: -10;
+    /* position: absolute; */
+    /* z-index: -10; */
 }
 .header-banner{
     padding: 7px calc(var(--x-padding) - 5px);
@@ -355,7 +357,7 @@ main{
     padding-right: var(--x-padding);
 }
 .article_container{
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 52.26px;
 }
 .breadcrumbs {
@@ -733,6 +735,8 @@ footer ul a{
         position: static;
         border-top-right-radius: 3px;
         border-top-left-radius: 3px;
+        box-shadow: none;
+        background-color: white;
     }
     .navigation-bar form{
         width: 100%;
