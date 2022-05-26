@@ -688,6 +688,24 @@ footer ul a{
     background-color: grey;
     color: white;
 }
+.send-feedback-box{
+    cursor: pointer;
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    top: 272px;
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+    padding: 0 16px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    height: 32px;
+    transform: rotate(-90deg);
+    transform-origin: 100% 100%;
+    margin: 0 !important;
+    z-index: 10;
+}
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1035px){
     :root{
