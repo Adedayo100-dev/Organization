@@ -98,7 +98,7 @@ header{
 .nav-link{
     display: inline;
     color: rgba(0, 0, 0, 0.5);
-    font-size: 16px;
+    font-size: 12px;
     letter-spacing: .25px;
     line-height: 1.85714;
     position: relative;
@@ -108,8 +108,9 @@ header{
     display: flex;
     align-items: center;
     letter-spacing: 1px;
-    padding: 4.5px 31px;
+    padding: 4.5px 20px;
     position: relative;
+    text-transform: uppercase;
 }
 /* .nav-link:first-of-type a{
     padding-left: 0;
@@ -358,7 +359,7 @@ main{
 }
 .article_container{
     padding-top: 60px;
-    padding-bottom: 52.26px;
+    padding-bottom: 40px;
 }
 .breadcrumbs {
     max-width: -webkit-max-content;
@@ -432,12 +433,13 @@ button.primary, .button.primary, a.button.primary {
     border-radius: 4px;
 }
 .wth-question{
-    margin: 80px 0 40px;
+    margin: 80px 0 0;
     background-color: #d2edff;
     padding: 1.4rem 2.1rem 1.5rem;
     border-radius: 4px;
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
 }
 .wth-question button{
@@ -533,7 +535,7 @@ footer {
     display: flex;
     width: 100%;
     padding-bottom: 82.5px;
-    padding-top: 82.6px;
+    padding-top: 120px;
 }
 .footer-nav ul{
     width: 25%;
@@ -709,6 +711,13 @@ footer ul a{
     background-color: grey;
     color: white;
 }
+.modal .logo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 90px;
+}
 .send-feedback-box{
     cursor: pointer;
     background-color: transparent;
@@ -870,7 +879,7 @@ footer ul a{
         justify-content: center;
     }
 }
-@media only screen and (min-width: 1035px){
+@media only screen and (min-width: 1281px){
     :root{
         --x-padding: 400px;
     }
