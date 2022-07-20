@@ -48,7 +48,7 @@ header{
 }
 .navigation-bar{
     background: white; /* #003da6, rgb(63.75 63.75 63.75)*/
-    padding: 12px var(--x-padding);
+    padding: 20px var(--x-padding) 12px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -881,6 +881,6 @@ footer ul a{
 }
 @media only screen and (min-width: 1281px){
     :root{
-        --x-padding: 2860px;
+        --x-padding: 286px;
     }
 }
