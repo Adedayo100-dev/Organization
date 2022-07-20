@@ -1,8 +1,9 @@
 # Organization
-This is a template-like practice of a fictitious established business/company/agency website with possible features found on such sites.
 
-Link: https://adedayo100-ux.github.io/Organization/
+This is a template-like practice of a fictitious  business/company/agency website. This project includes possible features found on such sites.
 
-If you would use any of the contents/design of this project, ask for my consent!
+__Link:__ https://adedayo100-ux.github.io/Organization/
+
+_You are free to use any content of this project in part or whole._
 
 ![Organization Logo](images/Agulha_logo-1.svg)
