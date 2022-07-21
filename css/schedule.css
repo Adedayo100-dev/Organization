@@ -3,7 +3,8 @@
     grid-template-areas: 
         "fName LName"
         "AppEmail AppDateTime"
-        "AppSub AppSub"
+        "AppMessage AppMessage"
+        "AppReset AppSub"
 ;
     flex-direction: column;
     gap: 20px 10px;
@@ -20,14 +21,38 @@
 #appointmentDateTime{
     grid-area: AppDateTime;
 }
+#appointmentMessage{
+    grid-area: AppMessage;
+}
+#appointmentReset{
+    grid-area: AppReset;
+    padding: 12px;
+    width: 100%;
+    border: none;
+}
 #appointmentSubmit{
     grid-area: AppSub;
+    padding: 12px;
+    width: 100%;
+    border: none;
 }
-#appointmentSubmit:hover{
+#appointmentSubmit:hover, #appointmentReset:hover{
     background-color: rgba(62.73 62.73 62.73 /0.15);
 }
-.appointments-schedule_container input{
+.appointments-schedule_container input:not([type="submit"], [type="reset"]), .appointments-schedule_container textarea{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ededed;
+    border: 1px solid #ced4da;
+}
+@media only screen and (max-width: 600.98px){
+    .appointments-schedule_container{
+        grid-template-areas: 
+            "fName fName"
+            "LName LName"
+            "AppEmail AppEmail"
+            "AppDateTime AppDateTime"
+            "AppMessage AppMessage"
+            "AppReset AppSub"
+        ;
+    }
 }
