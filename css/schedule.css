@@ -1,0 +1,33 @@
+.appointments-schedule_container{
+    display: grid;
+    grid-template-areas: 
+        "fName LName"
+        "AppEmail AppDateTime"
+        "AppSub AppSub"
+;
+    flex-direction: column;
+    gap: 20px 10px;
+}
+#firstName{
+    grid-area: fName;
+}
+#lastName{
+    grid-area: LName;
+}
+#appointmentEmail{
+    grid-area: AppEmail;
+}
+#appointmentDateTime{
+    grid-area: AppDateTime;
+}
+#appointmentSubmit{
+    grid-area: AppSub;
+}
+#appointmentSubmit:hover{
+    background-color: rgba(62.73 62.73 62.73 /0.15);
+}
+.appointments-schedule_container input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ededed;
+}

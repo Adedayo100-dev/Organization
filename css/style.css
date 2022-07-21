@@ -1,3 +1,4 @@
+@import url("modal.css");
 :root{
     --orange-color: orangered;
     --x-padding: 180px;
@@ -359,7 +360,7 @@ main{
 }
 .article_container{
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 .breadcrumbs {
     max-width: -webkit-max-content;
@@ -463,6 +464,7 @@ button.primary, .button.primary, a.button.primary {
     padding: 62px var(--x-padding);
     /* overflow: hidden; */
     position: relative;
+    margin-top: 40px;
 }
 .subscribtion-container h2{
     color: white;
@@ -648,7 +650,7 @@ footer ul a{
 .hire-authorbox .yx-gm{
     color: rgba(0,0, 0, .6);
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
 }
 .modal-content{
     padding: 60px var(--modal-x-padding);
@@ -662,8 +664,8 @@ footer ul a{
 .hire-authorbox input{
     width: 100%;
     padding: 12px;
-    background-color: #eee;
-    border: none;
+    /* background-color: #ededed; */
+    border: 1px solid #ededed;
     border-radius: 2px;
     color: black;
     font-size: 12px;
@@ -684,6 +686,9 @@ footer ul a{
     display: block;
     margin-top: 10px;
 } */
+.link-like{
+    color: orangered;
+}
 .padding-md{
     padding: 20px var(--modal-x-padding);
 }

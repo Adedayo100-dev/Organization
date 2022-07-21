@@ -1,0 +1,14 @@
+/* When sign in is displayed */
+.display-signin .signin-form{
+    display: block;
+}
+.display-signin .signup-form{
+    display: none;
+}
+/* When signup is displayed */
+.display-signup .signup-form{
+    display: block;
+}
+.display-signup .signin-form{
+    display: none;
+}
