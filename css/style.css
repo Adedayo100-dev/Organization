@@ -405,8 +405,38 @@ h1{
     margin-top: 1.335rem;
     letter-spacing: 0;
 }
+.shares-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.67em 0 29.48px 0;
+}
+.shares-box>div{
+    padding: 20px;
+}
+.shares-box .svg-wrapper{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.shares-box svg{
+    color: #a0a0a0;
+}
+.shares-box svg:hover{
+    color: #000000;
+}
 .article>div:first-of-type{
     padding-bottom: 15px;
+}
+.article ul{
+    /* list-style-type: disclosure-closed; */
+    list-style-image: url(../images/iconmonstr-check-mark-1.svg);
+    padding-left: 40px;
+}
+.article ul li {
+    padding-left: 10px;
+}
+.article ul li::marker{
+    color: rgb(34.5 127.5 0);
 }
 .image-frame{
     position: relative;
