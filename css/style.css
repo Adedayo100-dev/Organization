@@ -796,6 +796,8 @@ footer ul a{
 .cookie-basket p{
     color: white;
     margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .cookie-accept{
     background: #fff;
@@ -810,6 +812,9 @@ footer ul a{
     text-align: center;
     /* top: 10px; */
     width: 100%;
+}
+.cookie-accept:hover, .cookie-content a:hover{
+    text-decoration: underline;
 }
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1035px){
