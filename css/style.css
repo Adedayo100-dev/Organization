@@ -362,6 +362,12 @@ main{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.x{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .breadcrumbs {
     max-width: -webkit-max-content;
     max-width: max-content;
@@ -402,17 +408,17 @@ h1{
     font-size: 2.75rem;
     /* font-weight: 400; */
     line-height: 3.25rem;
-    margin-top: 1.335rem;
+    margin-top: 1.5rem;
     letter-spacing: 0;
 }
 .shares-box{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin: 0.67em 0 29.48px 0;
+    /* margin: 0.67em 0 29.48px 0; */
 }
 .shares-box>div{
-    padding: 20px;
+    padding: 0 20px;
 }
 .shares-box .svg-wrapper{
     height: 1.5rem;
@@ -770,6 +776,40 @@ footer ul a{
     transform-origin: 100% 100%;
     margin: 0 !important;
     z-index: 10;
+}
+.cookie-basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.cookie-content{
+    background-color: rgba(31,31,31,.9);
+    padding: 16px;
+    width: 320px;
+    border-radius: 8px;
+    /* margin: 0 auto 30px var(--x-padding); */
+    margin-bottom: 30px;
+}
+.cookie-basket p{
+    color: white;
+    margin: 0 0 10px 0;
+}
+.cookie-accept{
+    background: #fff;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 11px 0;
+    /* position: relative; */
+    text-align: center;
+    /* top: 10px; */
+    width: 100%;
 }
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1035px){
