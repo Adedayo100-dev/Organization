@@ -440,6 +440,7 @@ h1{
 }
 .article ul li {
     padding-left: 10px;
+    font-size: 15px;
 }
 .article ul li::marker{
     color: rgb(34.5 127.5 0);
@@ -816,6 +817,28 @@ footer ul a{
 .cookie-accept:hover, .cookie-content a:hover{
     text-decoration: underline;
 }
+.short-cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+}
+.card{
+    box-shadow: 0 1px 1px 0 rgb(66 66 66 / 8%), 0 1px 3px 1px rgb(66 66 66 / 16%);
+    border-radius: 8px;
+}
+.card-body{
+    padding: 20px;
+}
+.card iframe{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+}
+.card a{
+    font-size: 14px;
+    font-weight: 500;
+}
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1035px){
     :root{
@@ -893,6 +916,10 @@ footer ul a{
     .header-banner p{
         /* flex-direction: column; */
         padding: 0 10px;
+    }
+    .short-cards-grid{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media only screen and (max-width: 575.98px){
