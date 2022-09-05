@@ -643,7 +643,7 @@ footer ul a{
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgb(12 12 12 / 60%);
     position: fixed;
     top: 0;
     left: 0;
@@ -852,7 +852,7 @@ footer ul a{
 }
 .card input[type="url"]{
     border: 1px solid #eee;
-    padding: 10px 8px;
+    padding: 10px;
     width: 100%;
 }
 .card input[type="SUBMIT"]{
