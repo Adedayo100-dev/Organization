@@ -14,7 +14,7 @@ function notifyMe() {
       if (permission === "granted") {
           const img = '../images/Government_of_Antwerp_83_logo.svg';
           const text = `This is a wonderful second Notification. Let's work on this`;
-          const notification = new Notification('Hi there!', { body: text, icon: img });
+          const notification = new Notification('Hello there!', { body: text, icon: img });
         // …
       }
     });
