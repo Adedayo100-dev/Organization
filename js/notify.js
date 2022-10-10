@@ -12,9 +12,10 @@ function notifyMe() {
     Notification.requestPermission().then((permission) => {
       // If the user accepts, let's create a notification
       if (permission === "granted") {
+          const title = 'New Pay Added';
           const img = '../images/Government_of_Antwerp_83_logo.svg';
           const text = `This is a wonderful second Notification. Let's work on this`;
-          const notification = new Notification('Hello there!', { body: text, icon: img });
+          const notification = new Notification(title, { body: text, icon: img });
         // …
       }
     });
