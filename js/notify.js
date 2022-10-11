@@ -13,8 +13,8 @@ function notifyMe() {
       // If the user accepts, let's create a notification
       if (permission === "granted") {
           const title = 'New Pay Added';
-          const icn = 'images/98739.svg';
-          const text = `This is a wonderful second Notification. Let's work on this`;
+          const icn = 'images/astronomy-1867616.jpg';
+          const text = "This is a wonderful second Notification.\n Let's work on this";
           const img ='https://images.freeimages.com/images/large-previews/9bd/rusted-fence-decay-texture-1199916.jpg';
           const notification = new Notification(title, { body: text, icon: icn, image: img });
         // …
